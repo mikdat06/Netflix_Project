@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/netflix-background-image.jpg);
+  /* height: 1440px;
+  width: 1096px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#container {
+  width: 1240px;
+  height: 1036px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+  color: #ffffff;
+}
+#header {
+  color: #ffffff;
+  text-align: center;
+}
+h1 {
+  font-family: "Bowlby One SC", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+h3{
+font-family: 'Sorts Mill Goudy', serif;
+font-size: 23px;
+}
+#form-outbox{
+height: 897px;
+width: 500px;
+border-radius: 0px;
+background-color: rgba(0, 0, 0, 0.8);
+margin: auto;
+font-family: 'Roboto', sans-serif;
+padding: 30px 40px;
+margin-bottom: 30px;
+
+}
+#name, #age, #email, #content{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.input-box{
+   padding: 10px; 
+}
+#checkbox, #gender{
+   margin-top: 40px;
+}
+#comment{
+    resize: none;
+    height: 91.46px;
+}
+#button{
+height: 45px;
+width: 160px;
+border-radius: 50px;
+background-color: red;
+color: #ffffff;
+cursor: pointer;
+}
+#send{
+    text-align: center;
+}
+#button:hover{
+background-color: #ffffff;
+color: red;
+}
+
