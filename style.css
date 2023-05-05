@@ -43,7 +43,7 @@ margin: auto;
 font-family: 'Roboto', sans-serif;
 padding: 30px 40px;
 margin-bottom: 30px;
-
+text-align: left;
 }
 #name, #age, #email, #content{
     width: 100%;
